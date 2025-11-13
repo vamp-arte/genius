@@ -22,3 +22,13 @@
     border-radius: 20px;
     font-family: "Momo Signature", cursive;
 }
+
+.botao-carta{
+    position: fixed;
+    width: 150px;
+    margin: 30px;
+    display: flex;
+    margin-top: 400px;
+}
+
+.botao-carva :hover{}
