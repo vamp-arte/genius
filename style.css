@@ -23,7 +23,7 @@
     font-family: "Momo Signature", cursive;
 }
 
-.botao-carta{
+.botao-carta {
     position: fixed;
     width: 150px;
     margin: 30px;
@@ -31,4 +31,44 @@
     margin-top: 400px;
 }
 
-.botao-carva :hover{}
+.botao-carta:hover {}
+
+.instrumento {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 400px;
+    z-index: 2;
+    gap: 0px;
+    background-image: ;
+}
+
+.teclab {
+    width: 75px;
+    height: 200px;
+    background-color: white;
+    border: 4px solid #503723;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    transition: all 0.1s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.teclab:hover {
+    background-color: #f0f0f0;
+}
+
+.teclab:active {
+    background-color: #ddd;
+    border: 4px solid #332216;
+    transform: translateY(2px);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
